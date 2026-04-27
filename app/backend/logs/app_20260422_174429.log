@@ -1,0 +1,340 @@
+2026-04-22 17:44:29,498 - main - INFO - === Logging system initialized ===
+2026-04-22 17:44:29,498 - main - INFO - Log file: logs/app_20260422_174429.log
+2026-04-22 17:44:29,498 - main - INFO - Log level: INFO
+2026-04-22 17:44:29,498 - main - INFO - Timestamp: 20260422_174429
+2026-04-22 17:44:30,503 - main - INFO - Included router: routers.aihub.router
+2026-04-22 17:44:30,527 - main - INFO - Included router: routers.auth.router
+2026-04-22 17:44:30,590 - main - INFO - Included router: routers.characters.router
+2026-04-22 17:44:30,644 - main - INFO - Included router: routers.game_sessions.router
+2026-04-22 17:44:30,661 - main - INFO - Included router: routers.gm.router
+2026-04-22 17:44:30,663 - main - INFO - Included router: routers.health.router
+2026-04-22 17:44:30,688 - main - INFO - Included router: routers.settings.router
+2026-04-22 17:44:30,729 - main - INFO - Included router: routers.storage.router
+2026-04-22 17:44:30,740 - main - INFO - Included router: routers.user.router
+2026-04-22 17:44:30,741 - main - INFO - === Application startup initiated ===
+2026-04-22 17:44:30,741 - services.database - INFO - Ignore creating tables
+2026-04-22 17:44:30,741 - services.mock_data - INFO - Ignore initialize data
+2026-04-22 17:44:30,741 - services.auth - INFO - Ignore initialize admin
+2026-04-22 17:44:30,742 - main - INFO - === Application startup completed successfully ===
+2026-04-22 17:44:35,040 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-04-22 17:44:35,041 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-04-22 17:44:35,059 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:44:35,255 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:44:35,255 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-22 17:44:35,255 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-04-22 17:44:35,255 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-04-22 17:44:35,256 - core.database - INFO - Starting database initialization...
+2026-04-22 17:44:35,256 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-04-22 17:44:35,256 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-04-22 17:44:35,257 - core.database - INFO - Creating async database engine...
+2026-04-22 17:44:35,257 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-04-22 17:44:35,300 - core.database - INFO - Database engine created successfully
+2026-04-22 17:44:35,300 - core.database - INFO - Creating async session maker...
+2026-04-22 17:44:35,300 - core.database - INFO - Async session maker created successfully
+2026-04-22 17:44:35,300 - core.database - INFO - Database connection initialized successfully
+2026-04-22 17:44:35,300 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-04-22 17:44:35,301 - core.database - INFO - 🔧 Starting table creation...
+2026-04-22 17:44:36,757 - core.database - INFO - Tables initialized successfully
+2026-04-22 17:44:36,758 - core.database - DEBUG - [DB_OP] Create tables completed in 1.4574s
+2026-04-22 17:44:36,822 - core.database - INFO - Lazy database initialization completed successfully
+2026-04-22 17:44:36,823 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.5674s
+2026-04-22 17:44:36,823 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-22 17:44:37,409 - routers.characters - DEBUG - Found 1 characterss
+2026-04-22 17:44:37,410 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.1547s
+2026-04-22 17:48:37,578 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:48:37,925 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:48:37,925 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-22 17:48:37,926 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0007s
+2026-04-22 17:48:37,927 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-22 17:48:38,314 - routers.characters - DEBUG - Found 1 characterss
+2026-04-22 17:48:38,314 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3890s
+2026-04-22 17:52:40,027 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:52:40,218 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:52:40,219 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-22 17:52:40,219 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-04-22 17:52:40,219 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-22 17:52:40,734 - routers.characters - DEBUG - Found 1 characterss
+2026-04-22 17:52:40,735 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5163s
+2026-04-22 17:53:52,515 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:53:52,515 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-22 17:53:52,516 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-04-22 17:53:52,965 - core.database - ERROR - Database session error: 404: No session found for this character
+Traceback (most recent call last):
+  File "/workspace/app/backend/core/database.py", line 553, in get_db
+    yield session
+  File "/data/chats/dae78026db2a4903859e536e53e339db/.cache/python/lib/python3.10/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+  File "/data/chats/dae78026db2a4903859e536e53e339db/.cache/python/lib/python3.10/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+  File "/data/chats/dae78026db2a4903859e536e53e339db/.cache/python/lib/python3.10/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/workspace/app/backend/routers/gm.py", line 192, in load_session
+    raise HTTPException(status_code=404, detail="No session found for this character")
+fastapi.exceptions.HTTPException: 404: No session found for this character
+2026-04-22 17:53:52,987 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4720s
+2026-04-22 17:53:53,052 - core.database - ERROR - Failed to create database session: 404: No session found for this character
+Traceback (most recent call last):
+  File "/workspace/app/backend/core/database.py", line 553, in get_db
+    yield session
+  File "/data/chats/dae78026db2a4903859e536e53e339db/.cache/python/lib/python3.10/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+  File "/data/chats/dae78026db2a4903859e536e53e339db/.cache/python/lib/python3.10/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+  File "/data/chats/dae78026db2a4903859e536e53e339db/.cache/python/lib/python3.10/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/workspace/app/backend/routers/gm.py", line 192, in load_session
+    raise HTTPException(status_code=404, detail="No session found for this character")
+fastapi.exceptions.HTTPException: 404: No session found for this character
+2026-04-22 17:54:05,191 - core.config - DEBUG - Read dynamic attribute app_ai_base_url from environment variable APP_AI_BASE_URL
+2026-04-22 17:54:05,192 - core.config - DEBUG - Read dynamic attribute app_ai_key from environment variable APP_AI_KEY
+2026-04-22 17:54:05,991 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-7ca89ee3-b2af-492a-9c78-c921c8c2c10d', 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': '你是《乱世微尘》的游戏主持人（GM）。背景设定于汉末乱世（公元184-220年）。\n核心基调：乱世之下小人物的悲凉与坚韧，活命本身就是英雄主义。\n历史准确性：遵循《三国志》及《三国演义》，不杜撰历史人物私密言论，不破坏历史事件走向。\nNPC规则：每个NPC具备身份层（姓名、年龄、职业、性格）、记忆层（与玩家的交互历史）、目标层（短期/长期目标）、反应层（符合性格与处境的反应）。\n行动裁定：采用"描述-意图-结果"三段式，偏向拟真而非戏剧化。小人物不能凭一己之力扭转大势，成功往往伴随代价。\n叙事风格：参考《三国志》简洁克制，借《三国演义》生动描写塑造场景氛围。使用符合汉代语境的称谓，保持现代可读性。每次叙事以开放式情境收束，留给玩家选择空间。\n禁止：让玩家轻松成为历史名将义弟/军师；杜撰历史人物私密言论；为爽感破坏历史走向；主动提供最优解；使用"经验值"等现代游戏化语言。\n回复格式：纯叙事文本，可用【】标注重要信息，每次回复控制在400字以内。'}, {'role': 'user', 'content': '起床！'}], 'model': 'claude-opus-4.6', 'max_tokens': 4096, 'stream': True, 'temperature': 0.7}}
+2026-04-22 17:54:05,992 - openai._base_client - DEBUG - Sending HTTP Request: POST https://llmapi-api.deepwisdom.ai/v1/chat/completions
+2026-04-22 17:54:05,993 - httpcore.connection - DEBUG - connect_tcp.started host='llmapi-api.deepwisdom.ai' port=443 local_address=None timeout=5.0 socket_options=None
+2026-04-22 17:54:06,006 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7f85b53bbee0>
+2026-04-22 17:54:06,006 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f85b5923040> server_hostname='llmapi-api.deepwisdom.ai' timeout=5.0
+2026-04-22 17:54:06,021 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7f85b53bb790>
+2026-04-22 17:54:06,022 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-04-22 17:54:06,022 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-22 17:54:06,023 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-04-22 17:54:06,023 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-22 17:54:06,023 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-04-22 17:54:07,561 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 23 Apr 2026 00:54:07 GMT'), (b'Content-Type', b'text/event-stream'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'X-Oneapi-Request-Id', b'202604221754064823427385928317'), (b'X-Oneapi-Trans-Id', b'29576295801160024'), (b'X-Request-Id', b'202604221754064823427385928317'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9f08e51faa936a2a-LAX')])
+2026-04-22 17:54:07,562 - httpx - INFO - HTTP Request: POST https://llmapi-api.deepwisdom.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 17:54:07,562 - openai._base_client - DEBUG - HTTP Response: POST https://llmapi-api.deepwisdom.ai/v1/chat/completions "200 OK" Headers({'date': 'Thu, 23 Apr 2026 00:54:07 GMT', 'content-type': 'text/event-stream', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'x-oneapi-request-id': '202604221754064823427385928317', 'x-oneapi-trans-id': '29576295801160024', 'x-request-id': '202604221754064823427385928317', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '9f08e51faa936a2a-LAX'})
+2026-04-22 17:54:07,562 - openai._base_client - DEBUG - request_id: 202604221754064823427385928317
+2026-04-22 17:54:07,563 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-04-22 17:54:07,578 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "#"}\r\n\r\n'
+2026-04-22 17:54:07,593 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": " "}\r\n\r\n'
+2026-04-22 17:54:07,646 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e71\\u4e16\\u5fae\\u5c18\\n\\n---"}\r\n\r\n'
+2026-04-22 17:54:07,697 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\n\\n\\u4f60"}\r\n\r\n'
+2026-04-22 17:54:07,755 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u662f"}\r\n\r\n'
+2026-04-22 17:54:07,823 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u88ab"}\r\n\r\n'
+2026-04-22 17:54:08,015 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u51b7"}\r\n\r\n'
+2026-04-22 17:54:08,121 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9192\\u7684\\u3002"}\r\n\r\n'
+2026-04-22 17:54:08,203 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\n\\n\\u7834"}\r\n\r\n'
+2026-04-22 17:54:08,277 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6653\\u65f6"}\r\n\r\n'
+2026-04-22 17:54:08,332 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5206\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:08,382 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8305"}\r\n\r\n'
+2026-04-22 17:54:08,492 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5c4b\\u56db"}\r\n\r\n'
+2026-04-22 17:54:08,543 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9762\\u900f\\u98ce"}\r\n\r\n'
+2026-04-22 17:54:08,616 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:08,706 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u971c\\u6c14"}\r\n\r\n'
+2026-04-22 17:54:08,805 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u987a\\u7740"}\r\n\r\n'
+2026-04-22 17:54:08,857 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5899"}\r\n\r\n'
+2026-04-22 17:54:08,911 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7f1d\\u5f80"}\r\n\r\n'
+2026-04-22 17:54:09,018 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9aa8\\u5934\\u91cc"}\r\n\r\n'
+2026-04-22 17:54:09,070 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u94bb\\u3002\\u4f60"}\r\n\r\n'
+2026-04-22 17:54:09,122 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u88f9\\u7740\\u90a3"}\r\n\r\n'
+2026-04-22 17:54:09,175 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6761"}\r\n\r\n'
+2026-04-22 17:54:09,228 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8865"}\r\n\r\n'
+2026-04-22 17:54:09,280 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e86"}\r\n\r\n'
+2026-04-22 17:54:09,332 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u53c8\\u8865\\u7684"}\r\n\r\n'
+2026-04-22 17:54:09,400 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9ebb\\u5e03\\u88ab"}\r\n\r\n'
+2026-04-22 17:54:09,444 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5b50"}\r\n\r\n'
+2026-04-22 17:54:09,491 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:09,552 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8737\\u5728"}\r\n\r\n'
+2026-04-22 17:54:09,651 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7a3b\\u8349"}\r\n\r\n'
+2026-04-22 17:54:09,705 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5806\\u91cc\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:09,811 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u819d\\u76d6"}\r\n\r\n'
+2026-04-22 17:54:09,859 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u62b5\\u7740"}\r\n\r\n'
+2026-04-22 17:54:09,911 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e0b"}\r\n\r\n'
+2026-04-22 17:54:09,965 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5df4\\u3002"}\r\n\r\n'
+2026-04-22 17:54:10,036 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\n\\n\\u5c4b\\u5916\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:10,069 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9e21\\u8fd8"}\r\n\r\n'
+2026-04-22 17:54:10,122 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6ca1"}\r\n\r\n'
+2026-04-22 17:54:10,226 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u53eb\\u3002"}\r\n\r\n'
+2026-04-22 17:54:10,294 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4f46"}\r\n\r\n'
+2026-04-22 17:54:10,383 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9694\\u58c1\\u738b"}\r\n\r\n'
+2026-04-22 17:54:10,434 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5927"}\r\n\r\n'
+2026-04-22 17:54:10,538 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5a18\\u5df2"}\r\n\r\n'
+2026-04-22 17:54:10,591 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7ecf\\u5728"}\r\n\r\n'
+2026-04-22 17:54:10,697 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u54b3"}\r\n\r\n'
+2026-04-22 17:54:10,750 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e86"}\r\n\r\n'
+2026-04-22 17:54:10,847 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u2014\\u2014"}\r\n\r\n'
+2026-04-22 17:54:10,855 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u90a3"}\r\n\r\n'
+2026-04-22 17:54:10,908 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u79cd"}\r\n\r\n'
+2026-04-22 17:54:11,012 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6495\\u5fc3\\u88c2\\u80ba\\u7684\\u8001"}\r\n\r\n'
+2026-04-22 17:54:11,172 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u54b3\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:11,223 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5165"}\r\n\r\n'
+2026-04-22 17:54:11,382 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u51ac\\u4ee5"}\r\n\r\n'
+2026-04-22 17:54:11,436 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6765\\u5c31"}\r\n\r\n'
+2026-04-22 17:54:11,513 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6ca1\\u65ad"}\r\n\r\n'
+2026-04-22 17:54:11,542 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8fc7\\u3002\\n\\n\\u4f60"}\r\n\r\n'
+2026-04-22 17:54:11,593 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u53eb\\u4ec0"}\r\n\r\n'
+2026-04-22 17:54:11,647 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e48\\u6765"}\r\n\r\n'
+2026-04-22 17:54:11,699 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7740\\uff1f\\n\\n\\u4f60"}\r\n\r\n'
+2026-04-22 17:54:11,804 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6162\\u6162"}\r\n\r\n'
+2026-04-22 17:54:11,858 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5750\\u8d77\\u8eab\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:11,936 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u63c9\\u4e86"}\r\n\r\n'
+2026-04-22 17:54:12,005 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u63c9"}\r\n\r\n'
+2026-04-22 17:54:12,013 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9178"}\r\n\r\n'
+2026-04-22 17:54:12,066 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6da9\\u7684\\u773c\\u775b\\u3002"}\r\n\r\n'
+2026-04-22 17:54:12,117 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5c4b\\u89d2"}\r\n\r\n'
+2026-04-22 17:54:12,170 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7684"}\r\n\r\n'
+2026-04-22 17:54:12,275 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9676"}\r\n\r\n'
+2026-04-22 17:54:12,382 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7f50\\u91cc"}\r\n\r\n'
+2026-04-22 17:54:12,433 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8fd8"}\r\n\r\n'
+2026-04-22 17:54:12,537 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5269\\u5c0f"}\r\n\r\n'
+2026-04-22 17:54:12,592 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u534a"}\r\n\r\n'
+2026-04-22 17:54:12,643 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7f50"}\r\n\r\n'
+2026-04-22 17:54:12,695 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7c9f"}\r\n\r\n'
+2026-04-22 17:54:12,765 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7c73"}\r\n\r\n'
+2026-04-22 17:54:12,802 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\uff0c\\u5927"}\r\n\r\n'
+2026-04-22 17:54:12,884 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7ea6"}\r\n\r\n'
+2026-04-22 17:54:12,908 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u591f"}\r\n\r\n'
+2026-04-22 17:54:12,962 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e24"}\r\n\r\n'
+2026-04-22 17:54:13,012 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u65e5"}\r\n\r\n'
+2026-04-22 17:54:13,063 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7684"}\r\n\r\n'
+2026-04-22 17:54:13,116 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7a00"}\r\n\r\n'
+2026-04-22 17:54:13,169 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7ca5\\u3002"}\r\n\r\n'
+2026-04-22 17:54:13,272 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5899\\u4e0a"}\r\n\r\n'
+2026-04-22 17:54:13,377 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6302\\u7740\\u4e00"}\r\n\r\n'
+2026-04-22 17:54:13,431 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u628a"}\r\n\r\n'
+2026-04-22 17:54:13,537 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u67f4\\u5200\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:13,647 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5200\\u53e3"}\r\n\r\n'
+2026-04-22 17:54:13,699 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5df2"}\r\n\r\n'
+2026-04-22 17:54:13,751 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7ecf"}\r\n\r\n'
+2026-04-22 17:54:13,804 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5377\\u4e86"}\r\n\r\n'
+2026-04-22 17:54:13,856 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u3002"}\r\n\r\n'
+2026-04-22 17:54:13,908 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u95e8"}\r\n\r\n'
+2026-04-22 17:54:13,961 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u677f"}\r\n\r\n'
+2026-04-22 17:54:14,067 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7f1d\\u91cc"}\r\n\r\n'
+2026-04-22 17:54:14,131 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u900f"}\r\n\r\n'
+2026-04-22 17:54:14,171 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8fdb"}\r\n\r\n'
+2026-04-22 17:54:14,223 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6765"}\r\n\r\n'
+2026-04-22 17:54:14,277 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7070"}\r\n\r\n'
+2026-04-22 17:54:14,329 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8499\\u8499\\u7684\\u5929"}\r\n\r\n'
+2026-04-22 17:54:14,381 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5149"}\r\n\r\n'
+2026-04-22 17:54:14,440 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u3002"}\r\n\r\n'
+2026-04-22 17:54:14,490 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\n\\n\\u4eca"}\r\n\r\n'
+2026-04-22 17:54:14,542 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u65e5"}\r\n\r\n'
+2026-04-22 17:54:14,596 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u662f\\u3010"}\r\n\r\n'
+2026-04-22 17:54:14,648 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e2d"}\r\n\r\n'
+2026-04-22 17:54:14,700 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5e73"}\r\n\r\n'
+2026-04-22 17:54:14,753 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5143\\u5e74\\uff08"}\r\n\r\n'
+2026-04-22 17:54:14,805 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u516c"}\r\n\r\n'
+2026-04-22 17:54:14,857 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5143184\\u5e74\\uff09\\u4e8c"}\r\n\r\n'
+2026-04-22 17:54:14,909 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6708\\u3011"}\r\n\r\n'
+2026-04-22 17:54:14,961 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:15,067 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u988d"}\r\n\r\n'
+2026-04-22 17:54:15,119 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5ddd"}\r\n\r\n'
+2026-04-22 17:54:15,225 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u90e1\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:15,384 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9633"}\r\n\r\n'
+2026-04-22 17:54:15,489 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7fdf\\u53bf\\u5916"}\r\n\r\n'
+2026-04-22 17:54:15,569 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e00"}\r\n\r\n'
+2026-04-22 17:54:15,759 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e2a\\u53eb\\u505a"}\r\n\r\n'
+2026-04-22 17:54:15,760 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u69d0\\u91cc"}\r\n\r\n'
+2026-04-22 17:54:15,781 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7684\\u5c0f\\u6751"}\r\n\r\n'
+2026-04-22 17:54:15,830 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5e84\\u3002\\n\\n\\u4f60\\u8bb0"}\r\n\r\n'
+2026-04-22 17:54:15,882 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5f97"}\r\n\r\n'
+2026-04-22 17:54:15,937 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6628\\u665a\\u6751"}\r\n\r\n'
+2026-04-22 17:54:16,017 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5934"}\r\n\r\n'
+2026-04-22 17:54:16,046 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8001"}\r\n\r\n'
+2026-04-22 17:54:16,154 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8d75\\u5934"}\r\n\r\n'
+2026-04-22 17:54:16,260 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8bf4"}\r\n\r\n'
+2026-04-22 17:54:16,315 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8fc7"}\r\n\r\n'
+2026-04-22 17:54:16,370 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e00"}\r\n\r\n'
+2026-04-22 17:54:16,446 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u53e5\\u8bdd\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:16,472 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8bf4\\u662f"}\r\n\r\n'
+2026-04-22 17:54:16,528 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5357"}\r\n\r\n'
+2026-04-22 17:54:16,578 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8fb9"}\r\n\r\n'
+2026-04-22 17:54:16,629 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u957f"}\r\n\r\n'
+2026-04-22 17:54:16,680 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u793e"}\r\n\r\n'
+2026-04-22 17:54:16,731 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u90a3"}\r\n\r\n'
+2026-04-22 17:54:16,808 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8fb9"}\r\n\r\n'
+2026-04-22 17:54:16,886 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u95f9\\u8d77"}\r\n\r\n'
+2026-04-22 17:54:16,938 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6765\\u4e86\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:16,994 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u597d"}\r\n\r\n'
+2026-04-22 17:54:17,042 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u591a"}\r\n\r\n'
+2026-04-22 17:54:17,093 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4eba"}\r\n\r\n'
+2026-04-22 17:54:17,146 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u88f9\\u4e86"}\r\n\r\n'
+2026-04-22 17:54:17,303 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9ec4"}\r\n\r\n'
+2026-04-22 17:54:17,355 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5dfe\\uff0c\\u8bf4"}\r\n\r\n'
+2026-04-22 17:54:17,406 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4ec0"}\r\n\r\n'
+2026-04-22 17:54:17,458 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e48\\""}\r\n\r\n'
+2026-04-22 17:54:17,510 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u82cd"}\r\n\r\n'
+2026-04-22 17:54:17,561 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5929"}\r\n\r\n'
+2026-04-22 17:54:17,632 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5df2"}\r\n\r\n'
+2026-04-22 17:54:17,663 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6b7b\\uff0c\\u9ec4\\u5929"}\r\n\r\n'
+2026-04-22 17:54:17,714 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5f53\\u7acb\\"\\u3002\\u8001"}\r\n\r\n'
+2026-04-22 17:54:17,767 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8d75\\u5934\\u8bf4"}\r\n\r\n'
+2026-04-22 17:54:17,817 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8fd9"}\r\n\r\n'
+2026-04-22 17:54:17,873 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8bdd\\u7684\\u65f6\\u5019\\uff0c\\u624b"}\r\n\r\n'
+2026-04-22 17:54:17,997 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6296\\u5f97"}\r\n\r\n'
+2026-04-22 17:54:18,022 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5389\\u5bb3\\uff0c\\u706b"}\r\n\r\n'
+2026-04-22 17:54:18,127 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5806\\u6620"}\r\n\r\n'
+2026-04-22 17:54:18,238 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7740"}\r\n\r\n'
+2026-04-22 17:54:18,288 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4ed6\\u6ee1"}\r\n\r\n'
+2026-04-22 17:54:18,340 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8138\\u7684"}\r\n\r\n'
+2026-04-22 17:54:18,392 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u76b1\\u7eb9\\u3002\\n\\n\\u4f60\\u6ca1"}\r\n\r\n'
+2026-04-22 17:54:18,451 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5f53"}\r\n\r\n'
+2026-04-22 17:54:18,492 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u56de"}\r\n\r\n'
+2026-04-22 17:54:18,597 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e8b\\u3002"}\r\n\r\n'
+2026-04-22 17:54:18,649 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4f60"}\r\n\r\n'
+2026-04-22 17:54:18,755 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u53ea\\u60f3"}\r\n\r\n'
+2026-04-22 17:54:18,805 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7740\\u660e"}\r\n\r\n'
+2026-04-22 17:54:18,860 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5929\\u8be5"}\r\n\r\n'
+2026-04-22 17:54:18,907 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u53bb"}\r\n\r\n'
+2026-04-22 17:54:18,959 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u54ea\\u91cc\\u6253"}\r\n\r\n'
+2026-04-22 17:54:19,066 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u67f4\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:19,119 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7c9f"}\r\n\r\n'
+2026-04-22 17:54:19,170 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7c73\\u8fd8"}\r\n\r\n'
+2026-04-22 17:54:19,220 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u80fd"}\r\n\r\n'
+2026-04-22 17:54:19,321 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6491\\u51e0"}\r\n\r\n'
+2026-04-22 17:54:19,373 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5929\\u3002\\n\\n\\u4f46"}\r\n\r\n'
+2026-04-22 17:54:19,423 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6b64"}\r\n\r\n'
+2026-04-22 17:54:19,528 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u523b\\uff0c\\u4f60"}\r\n\r\n'
+2026-04-22 17:54:19,580 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u9690\\u7ea6"}\r\n\r\n'
+2026-04-22 17:54:19,633 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u542c"}\r\n\r\n'
+2026-04-22 17:54:19,706 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u89c1"}\r\n\r\n'
+2026-04-22 17:54:19,735 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u2014\\u2014"}\r\n\r\n'
+2026-04-22 17:54:19,786 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\n\\n\\u6751"}\r\n\r\n'
+2026-04-22 17:54:19,837 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e1c"}\r\n\r\n'
+2026-04-22 17:54:19,893 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5934\\u7684"}\r\n\r\n'
+2026-04-22 17:54:19,940 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u65b9"}\r\n\r\n'
+2026-04-22 17:54:19,993 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5411\\uff0c\\u6709"}\r\n\r\n'
+2026-04-22 17:54:20,068 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u72ac\\u5420\\u58f0\\uff0c"}\r\n\r\n'
+2026-04-22 17:54:20,092 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e0d"}\r\n\r\n'
+2026-04-22 17:54:20,147 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6b62"}\r\n\r\n'
+2026-04-22 17:54:20,251 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e00\\u6761"}\r\n\r\n'
+2026-04-22 17:54:20,351 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u72d7\\u5728"}\r\n\r\n'
+2026-04-22 17:54:20,403 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u53eb\\u3002\\u7136"}\r\n\r\n'
+2026-04-22 17:54:20,457 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u540e\\u662f\\u4eba"}\r\n\r\n'
+2026-04-22 17:54:20,533 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u58f0"}\r\n\r\n'
+2026-04-22 17:54:20,562 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\uff0c\\u6a21"}\r\n\r\n'
+2026-04-22 17:54:20,614 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6a21"}\r\n\r\n'
+2026-04-22 17:54:20,665 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7cca\\u7cca\\u7684\\uff0c\\u50cf\\u662f"}\r\n\r\n'
+2026-04-22 17:54:20,719 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5f88"}\r\n\r\n'
+2026-04-22 17:54:20,767 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u591a"}\r\n\r\n'
+2026-04-22 17:54:20,817 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4eba"}\r\n\r\n'
+2026-04-22 17:54:20,897 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8e29"}\r\n\r\n'
+2026-04-22 17:54:20,922 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u5728"}\r\n\r\n'
+2026-04-22 17:54:20,972 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u971c"}\r\n\r\n'
+2026-04-22 17:54:20,986 - sse_starlette.sse - DEBUG - ping: b': ping - 2026-04-23 00:54:20.986150+00:00\r\n\r\n'
+2026-04-22 17:54:21,024 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u51bb\\u7684\\u571f"}\r\n\r\n'
+2026-04-22 17:54:21,093 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8def"}\r\n\r\n'
+2026-04-22 17:54:21,179 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4e0a\\u3002\\n\\n---"}\r\n\r\n'
+2026-04-22 17:54:21,229 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\n\\n\\u4f60\\u8fd8"}\r\n\r\n'
+2026-04-22 17:54:21,283 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u672a"}\r\n\r\n'
+2026-04-22 17:54:21,332 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8d77\\u8eab"}\r\n\r\n'
+2026-04-22 17:54:21,382 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u3002"}\r\n\r\n'
+2026-04-22 17:54:21,499 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8305\\u5c4b\\u7684"}\r\n\r\n'
+2026-04-22 17:54:21,539 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u95e8\\u6ca1"}\r\n\r\n'
+2026-04-22 17:54:21,592 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6709"}\r\n\r\n'
+2026-04-22 17:54:21,642 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u6813\\u3002"}\r\n\r\n'
+2026-04-22 17:54:21,700 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\n\\n\\u3010"}\r\n\r\n'
+2026-04-22 17:54:21,749 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u4f60"}\r\n\r\n'
+2026-04-22 17:54:21,830 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u662f"}\r\n\r\n'
+2026-04-22 17:54:21,959 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u8c01\\uff1f\\u4f60\\u6253"}\r\n\r\n'
+2026-04-22 17:54:22,013 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u7b97"}\r\n\r\n'
+2026-04-22 17:54:22,172 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\u600e\\u4e48\\u505a"}\r\n\r\n'
+2026-04-22 17:54:22,172 - sse_starlette.sse - DEBUG - chunk: b'data: {"content": "\\uff1f\\u3011"}\r\n\r\n'
+2026-04-22 17:54:22,349 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-22 17:54:22,349 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-22 17:54:22,349 - sse_starlette.sse - DEBUG - chunk: b'data: [DONE]\r\n\r\n'
+2026-04-22 17:54:22,350 - sse_starlette.sse - DEBUG - Got event: http.disconnect. Stop streaming.
+2026-04-22 17:54:22,351 - httpcore.http11 - DEBUG - receive_response_body.failed exception=GeneratorExit()
+2026-04-22 17:54:22,584 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 17:54:22,584 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-22 17:54:22,585 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-04-22 17:54:23,495 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.9106s

@@ -1,0 +1,65 @@
+{
+    "title": "characters",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "name": {
+            "type": "string",
+            "description": "角色名字"
+        },
+        "gender": {
+            "type": "string",
+            "description": "性别：男/女"
+        },
+        "identity": {
+            "type": "string",
+            "description": "身份类型：游侠/游商/寒士"
+        },
+        "birthplace": {
+            "type": "string",
+            "description": "出生地"
+        },
+        "current_year": {
+            "type": "integer",
+            "description": "当前游戏年份"
+        },
+        "reputation": {
+            "type": "string",
+            "description": "声望描述（江湖/官府/民间）"
+        },
+        "relations": {
+            "type": "string",
+            "description": "关系网络（JSON字符串）"
+        },
+        "situation": {
+            "type": "string",
+            "description": "处境：安全/危险/亡命"
+        },
+        "is_alive": {
+            "type": "boolean",
+            "description": "是否存活"
+        },
+        "death_story": {
+            "type": "string",
+            "description": "死亡叙事"
+        },
+        "play_count": {
+            "type": "integer",
+            "description": "游玩次数"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "name",
+        "identity",
+        "birthplace"
+    ]
+}

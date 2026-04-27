@@ -1,0 +1,47 @@
+{
+    "title": "game_sessions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "character_id": {
+            "type": "integer",
+            "description": "角色ID"
+        },
+        "messages": {
+            "type": "string",
+            "description": "对话历史（JSON字符串，含GM叙事和玩家输入）"
+        },
+        "npc_states": {
+            "type": "string",
+            "description": "NPC状态（JSON字符串）"
+        },
+        "world_events": {
+            "type": "string",
+            "description": "已触发历史事件（JSON字符串）"
+        },
+        "scene_npcs": {
+            "type": "string",
+            "description": "当前场景NPC（JSON字符串）"
+        },
+        "current_location": {
+            "type": "string",
+            "description": "当前地点"
+        },
+        "session_summary": {
+            "type": "string",
+            "description": "会话摘要（用于长对话压缩）"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "character_id"
+    ]
+}

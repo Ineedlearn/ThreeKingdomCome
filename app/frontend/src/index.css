@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+</to_replace>
+</Editor.edit_file_by_replace>
+
+<Editor.edit_file_by_replace>
+<file_name>/workspace/app/frontend/src/index.css</file_name>
+<to_replace>
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+</to_replace>
+<new_content>
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* ===== 乱世微尘 古风主题 ===== */
+.lzwd-bg {
+  background-color: #0d0d0d;
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(139,26,26,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(201,168,76,0.05) 0%, transparent 50%);
+  min-height: 100vh;
+}
+
+.lzwd-card {
+  background: linear-gradient(135deg, #1e1810 0%, #1a1208 100%);
+  border: 1px solid #3d2e1a;
+}
+
+.lzwd-card:hover {
+  border-color: #c9a84c;
+  box-shadow: 0 0 12px rgba(201,168,76,0.15);
+}
+
+.lzwd-gold { color: #c9a84c; }
+.lzwd-gold-light { color: #e8c96a; }
+.lzwd-red { color: #8b1a1a; }
+.lzwd-green { color: #4a7c59; }
+.lzwd-text { color: #e8d5a3; }
+.lzwd-muted { color: #a89060; }
+
+.lzwd-btn-gold {
+  background: linear-gradient(135deg, #c9a84c, #a8832a);
+  color: #0d0d0d;
+  font-weight: 600;
+  border: none;
+  transition: all 0.2s;
+}
+.lzwd-btn-gold:hover {
+  background: linear-gradient(135deg, #e8c96a, #c9a84c);
+  box-shadow: 0 0 16px rgba(201,168,76,0.4);
+}
+
+.lzwd-btn-ghost {
+  background: transparent;
+  color: #c9a84c;
+  border: 1px solid #3d2e1a;
+  transition: all 0.2s;
+}
+.lzwd-btn-ghost:hover {
+  border-color: #c9a84c;
+  background: rgba(201,168,76,0.08);
+}
+
+.lzwd-divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #c9a84c55, transparent);
+  margin: 1rem 0;
+}
+
+.lzwd-title {
+  font-family: 'Noto Serif SC', 'SimSun', serif;
+  color: #c9a84c;
+  letter-spacing: 0.15em;
+}
+
+.lzwd-narrative {
+  font-family: 'Noto Sans SC', 'PingFang SC', sans-serif;
+  color: #e8d5a3;
+  line-height: 2;
+  font-size: 0.95rem;
+}
+
+.lzwd-scroll::-webkit-scrollbar { width: 4px; }
+.lzwd-scroll::-webkit-scrollbar-track { background: #1a1208; }
+.lzwd-scroll::-webkit-scrollbar-thumb { background: #c9a84c55; border-radius: 2px; }
+.lzwd-scroll::-webkit-scrollbar-thumb:hover { background: #c9a84c; }
+
+.lzwd-input {
+  background: #1a1208;
+  border: 1px solid #3d2e1a;
+  color: #e8d5a3;
+  resize: none;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.lzwd-input:focus {
+  outline: none;
+  border-color: #c9a84c;
+  box-shadow: 0 0 8px rgba(201,168,76,0.2);
+}
+.lzwd-input::placeholder { color: #6b5530; }
+
+.lzwd-badge-safe { background: #1a3d2a; color: #4a7c59; border: 1px solid #4a7c59; }
+.lzwd-badge-danger { background: #3d2a00; color: #c9a84c; border: 1px solid #c9a84c; }
+.lzwd-badge-flee { background: #3d0a0a; color: #c0392b; border: 1px solid #8b1a1a; }
+
+.lzwd-npc-card {
+  background: #16110a;
+  border-left: 2px solid #c9a84c55;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.lzwd-event-item {
+  border-left: 2px solid #8b1a1a55;
+  padding-left: 0.75rem;
+  margin-bottom: 0.5rem;
+  color: #a89060;
+  font-size: 0.8rem;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.lzwd-msg-enter { animation: fadeInUp 0.3s ease-out; }
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.lzwd-cursor { animation: blink 1s infinite; display: inline-block; width: 2px; height: 1em; background: #c9a84c; vertical-align: text-bottom; margin-left: 2px; }
+
+.lzwd-death-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.92);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 100;
+}
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://atoms.template.com/sitemap.xml

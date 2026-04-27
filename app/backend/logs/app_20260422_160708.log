@@ -1,0 +1,54 @@
+2026-04-22 16:07:08,777 - main - INFO - === Logging system initialized ===
+2026-04-22 16:07:08,777 - main - INFO - Log file: logs/app_20260422_160708.log
+2026-04-22 16:07:08,777 - main - INFO - Log level: INFO
+2026-04-22 16:07:08,777 - main - INFO - Timestamp: 20260422_160708
+2026-04-22 16:07:09,772 - main - INFO - Included router: routers.aihub.router
+2026-04-22 16:07:09,792 - main - INFO - Included router: routers.auth.router
+2026-04-22 16:07:09,845 - main - INFO - Included router: routers.characters.router
+2026-04-22 16:07:09,895 - main - INFO - Included router: routers.game_sessions.router
+2026-04-22 16:07:09,907 - main - INFO - Included router: routers.gm.router
+2026-04-22 16:07:09,909 - main - INFO - Included router: routers.health.router
+2026-04-22 16:07:09,927 - main - INFO - Included router: routers.settings.router
+2026-04-22 16:07:09,963 - main - INFO - Included router: routers.storage.router
+2026-04-22 16:07:09,971 - main - INFO - Included router: routers.user.router
+2026-04-22 16:07:09,972 - main - INFO - === Application startup initiated ===
+2026-04-22 16:07:09,972 - services.database - INFO - Ignore creating tables
+2026-04-22 16:07:09,973 - services.mock_data - INFO - Ignore initialize data
+2026-04-22 16:07:09,973 - services.auth - INFO - Ignore initialize admin
+2026-04-22 16:07:09,973 - main - INFO - === Application startup completed successfully ===
+2026-04-22 16:07:14,108 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-04-22 16:07:14,109 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-04-22 16:07:14,123 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 16:07:14,333 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 16:07:14,333 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-22 16:07:14,334 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-04-22 16:07:14,334 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-04-22 16:07:14,334 - core.database - INFO - Starting database initialization...
+2026-04-22 16:07:14,334 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-04-22 16:07:14,334 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-04-22 16:07:14,336 - core.database - INFO - Creating async database engine...
+2026-04-22 16:07:14,336 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-04-22 16:07:14,389 - core.database - INFO - Database engine created successfully
+2026-04-22 16:07:14,390 - core.database - INFO - Creating async session maker...
+2026-04-22 16:07:14,390 - core.database - INFO - Async session maker created successfully
+2026-04-22 16:07:14,390 - core.database - INFO - Database connection initialized successfully
+2026-04-22 16:07:14,390 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-04-22 16:07:14,391 - core.database - INFO - 🔧 Starting table creation...
+2026-04-22 16:07:15,875 - core.database - INFO - Tables initialized successfully
+2026-04-22 16:07:15,875 - core.database - DEBUG - [DB_OP] Create tables completed in 1.4845s
+2026-04-22 16:07:15,938 - core.database - INFO - Lazy database initialization completed successfully
+2026-04-22 16:07:15,939 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.6054s
+2026-04-22 16:07:15,939 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-22 16:07:16,522 - routers.characters - DEBUG - Found 0 characterss
+2026-04-22 16:07:16,523 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.1895s
+2026-04-22 16:16:54,958 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 16:16:55,149 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-22 16:16:55,149 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-22 16:16:55,149 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-04-22 16:16:55,150 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-22 16:16:56,464 - routers.characters - DEBUG - Found 0 characterss
+2026-04-22 16:16:56,465 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.3156s
+2026-04-22 16:17:49,259 - services.database - DEBUG - [DB_OP] Starting database close
+2026-04-22 16:17:49,325 - core.database - INFO - Database connection closed and engine disposed
+2026-04-22 16:17:49,326 - services.database - INFO - Database connections closed
+2026-04-22 16:17:49,326 - services.database - DEBUG - [DB_OP] Database close completed in 0.0673s
