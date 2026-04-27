@@ -1,0 +1,47 @@
+2026-04-27 05:41:09,800 - main - INFO - === Logging system initialized ===
+2026-04-27 05:41:09,800 - main - INFO - Log file: logs/app_20260427_054109.log
+2026-04-27 05:41:09,801 - main - INFO - Log level: INFO
+2026-04-27 05:41:09,801 - main - INFO - Timestamp: 20260427_054109
+2026-04-27 05:41:10,715 - main - INFO - Included router: routers.aihub.router
+2026-04-27 05:41:10,736 - main - INFO - Included router: routers.auth.router
+2026-04-27 05:41:10,794 - main - INFO - Included router: routers.characters.router
+2026-04-27 05:41:10,843 - main - INFO - Included router: routers.game_sessions.router
+2026-04-27 05:41:10,857 - main - INFO - Included router: routers.gm.router
+2026-04-27 05:41:10,859 - main - INFO - Included router: routers.health.router
+2026-04-27 05:41:10,880 - main - INFO - Included router: routers.settings.router
+2026-04-27 05:41:10,917 - main - INFO - Included router: routers.storage.router
+2026-04-27 05:41:10,926 - main - INFO - Included router: routers.user.router
+2026-04-27 05:41:10,928 - main - INFO - === Application startup initiated ===
+2026-04-27 05:41:10,928 - services.database - INFO - Ignore creating tables
+2026-04-27 05:41:10,928 - services.mock_data - INFO - Ignore initialize data
+2026-04-27 05:41:10,928 - services.auth - INFO - Ignore initialize admin
+2026-04-27 05:41:10,928 - main - INFO - === Application startup completed successfully ===
+2026-04-27 05:41:14,144 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-04-27 05:41:14,144 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-04-27 05:41:14,155 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 05:41:14,359 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 05:41:14,360 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-27 05:41:14,360 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-04-27 05:41:14,360 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-04-27 05:41:14,360 - core.database - INFO - Starting database initialization...
+2026-04-27 05:41:14,360 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-04-27 05:41:14,360 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-04-27 05:41:14,362 - core.database - INFO - Creating async database engine...
+2026-04-27 05:41:14,363 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-04-27 05:41:14,426 - core.database - INFO - Database engine created successfully
+2026-04-27 05:41:14,426 - core.database - INFO - Creating async session maker...
+2026-04-27 05:41:14,426 - core.database - INFO - Async session maker created successfully
+2026-04-27 05:41:14,427 - core.database - INFO - Database connection initialized successfully
+2026-04-27 05:41:14,427 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-04-27 05:41:14,427 - core.database - INFO - 🔧 Starting table creation...
+2026-04-27 05:41:15,870 - core.database - INFO - Tables initialized successfully
+2026-04-27 05:41:15,871 - core.database - DEBUG - [DB_OP] Create tables completed in 1.4437s
+2026-04-27 05:41:15,934 - core.database - INFO - Lazy database initialization completed successfully
+2026-04-27 05:41:15,934 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.5746s
+2026-04-27 05:41:15,935 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-27 05:41:16,514 - routers.characters - DEBUG - Found 3 characterss
+2026-04-27 05:41:16,515 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.1552s
+2026-04-27 05:41:29,584 - services.database - DEBUG - [DB_OP] Starting database close
+2026-04-27 05:41:29,651 - core.database - INFO - Database connection closed and engine disposed
+2026-04-27 05:41:29,652 - services.database - INFO - Database connections closed
+2026-04-27 05:41:29,652 - services.database - DEBUG - [DB_OP] Database close completed in 0.0675s

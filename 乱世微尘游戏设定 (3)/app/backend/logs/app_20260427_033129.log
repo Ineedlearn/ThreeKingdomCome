@@ -1,0 +1,85 @@
+2026-04-27 03:31:29,487 - main - INFO - === Logging system initialized ===
+2026-04-27 03:31:29,488 - main - INFO - Log file: logs/app_20260427_033129.log
+2026-04-27 03:31:29,488 - main - INFO - Log level: INFO
+2026-04-27 03:31:29,488 - main - INFO - Timestamp: 20260427_033129
+2026-04-27 03:31:30,720 - main - INFO - Included router: routers.aihub.router
+2026-04-27 03:31:30,743 - main - INFO - Included router: routers.auth.router
+2026-04-27 03:31:30,804 - main - INFO - Included router: routers.characters.router
+2026-04-27 03:31:30,858 - main - INFO - Included router: routers.game_sessions.router
+2026-04-27 03:31:30,891 - main - INFO - Included router: routers.gm.router
+2026-04-27 03:31:30,894 - main - INFO - Included router: routers.health.router
+2026-04-27 03:31:30,924 - main - INFO - Included router: routers.settings.router
+2026-04-27 03:31:30,964 - main - INFO - Included router: routers.storage.router
+2026-04-27 03:31:30,975 - main - INFO - Included router: routers.user.router
+2026-04-27 03:31:30,976 - main - INFO - === Application startup initiated ===
+2026-04-27 03:31:30,977 - services.database - INFO - Ignore creating tables
+2026-04-27 03:31:30,977 - services.mock_data - INFO - Ignore initialize data
+2026-04-27 03:31:30,977 - services.auth - INFO - Ignore initialize admin
+2026-04-27 03:31:30,977 - main - INFO - === Application startup completed successfully ===
+2026-04-27 03:32:21,461 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-04-27 03:32:21,462 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-04-27 03:32:21,474 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:32:21,683 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:32:21,683 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-27 03:32:21,683 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-04-27 03:32:21,683 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-04-27 03:32:21,684 - core.database - INFO - Starting database initialization...
+2026-04-27 03:32:21,684 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-04-27 03:32:21,684 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-04-27 03:32:21,685 - core.database - INFO - Creating async database engine...
+2026-04-27 03:32:21,685 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-04-27 03:32:21,745 - core.database - INFO - Database engine created successfully
+2026-04-27 03:32:21,745 - core.database - INFO - Creating async session maker...
+2026-04-27 03:32:21,745 - core.database - INFO - Async session maker created successfully
+2026-04-27 03:32:21,745 - core.database - INFO - Database connection initialized successfully
+2026-04-27 03:32:21,746 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-04-27 03:32:21,746 - core.database - INFO - 🔧 Starting table creation...
+2026-04-27 03:32:23,760 - core.database - INFO - Tables initialized successfully
+2026-04-27 03:32:23,760 - core.database - DEBUG - [DB_OP] Create tables completed in 2.0146s
+2026-04-27 03:32:23,823 - core.database - INFO - Lazy database initialization completed successfully
+2026-04-27 03:32:23,824 - core.database - DEBUG - [DB_OP] Database session created successfully in 2.1404s
+2026-04-27 03:32:23,824 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-27 03:32:24,412 - routers.characters - DEBUG - Found 1 characterss
+2026-04-27 03:32:24,414 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.7304s
+2026-04-27 03:32:59,101 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:32:59,293 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:32:59,294 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-27 03:32:59,294 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-04-27 03:32:59,295 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-27 03:32:59,671 - routers.characters - DEBUG - Found 1 characterss
+2026-04-27 03:32:59,672 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3780s
+2026-04-27 03:36:10,623 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:36:10,816 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:36:10,816 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-27 03:36:10,817 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-04-27 03:36:10,817 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-27 03:36:11,197 - routers.characters - DEBUG - Found 1 characterss
+2026-04-27 03:36:11,198 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3812s
+2026-04-27 03:36:32,776 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-04-27 03:37:29,349 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:37:29,551 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:37:29,551 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-27 03:37:29,552 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0008s
+2026-04-27 03:37:29,553 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-27 03:37:30,057 - routers.characters - DEBUG - Found 1 characterss
+2026-04-27 03:37:30,058 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5073s
+2026-04-27 03:37:51,957 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-04-27 03:39:06,250 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:39:06,436 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:39:06,437 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-27 03:39:06,437 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-04-27 03:39:06,437 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-27 03:39:06,817 - routers.characters - DEBUG - Found 1 characterss
+2026-04-27 03:39:06,818 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3815s
+2026-04-27 03:39:39,368 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-04-27 03:39:40,071 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:39:40,259 - core.auth - DEBUG - Authentication token validated for user hash: 0ccf3a3e
+2026-04-27 03:39:40,259 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-04-27 03:39:40,260 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0006s
+2026-04-27 03:39:40,260 - routers.characters - DEBUG - Querying characterss: query={}, sort=-created_at, skip=0, limit=20, fields=None
+2026-04-27 03:39:40,638 - routers.characters - DEBUG - Found 1 characterss
+2026-04-27 03:39:40,639 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3798s
+2026-04-27 03:40:17,763 - services.database - DEBUG - [DB_OP] Starting database close
+2026-04-27 03:40:17,829 - core.database - INFO - Database connection closed and engine disposed
+2026-04-27 03:40:17,829 - services.database - INFO - Database connections closed
+2026-04-27 03:40:17,829 - services.database - DEBUG - [DB_OP] Database close completed in 0.0668s
